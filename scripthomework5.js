@@ -37,3 +37,4 @@ const Olga = new Contact({
 console.log(Anna.getContactInfo());
 console.log(Ivan.getContactInfo());
 console.log(Olga.getContactInfo());*/
+// checked

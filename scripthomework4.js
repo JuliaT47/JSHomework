@@ -42,6 +42,56 @@ studentInfo.logInfo.bind(Ivan, "70", "3")();
 studentInfo.logInfo.bind(Olga, "80", "4")();
 studentInfo.logInfo.bind(Irene, "90", "2")();*/
 
+// Another way
+/*const studentTemplate = {
+  name: "",
+  major: "",
+  averageGrade: 0,
+  absences: 0,
+};
+// Варіанти студентів у масиві
+const students = [
+  {
+    ...studentTemplate,
+    name: "Іван",
+    major: "Інформатика",
+    averageGrade: 4.5,
+    absences: 2,
+  },
+  {
+    ...studentTemplate,
+    name: "Марія",
+    major: "Психологія",
+    averageGrade: 4.0,
+    absences: 5,
+  },
+  {
+    ...studentTemplate,
+    name: "Олександр",
+    major: "Економіка",
+    averageGrade: 3.8,
+    absences: 8,
+  },
+];
+
+// Додавання іншого студента до масиву
+students.push({
+  ...studentTemplate,
+  name: "Анна",
+  major: "Медицина",
+  averageGrade: 4.9,
+  absences: 1,
+});
+
+// Виведення інформації про всіх студентів
+for (const student of students) {
+  console.log("-----");
+  console.log(`Ім'я: ${student.name}`);
+  console.log(`Спеціальність: ${student.major}`);
+  console.log(`Середній бал: ${student.averageGrade}`);
+  console.log(`Кількість пропущених занять: ${student.absences}`);
+}*/
+
 // --2--
 // Написати дві кнопки і закріпити на них функції
 // при натисканні на кнопку html - має видати коротке визначення
@@ -70,6 +120,20 @@ document
 document
   .querySelector("#css")
   .addEventListener("click", definitions.showDefinition.bind(css));*/
+
+// Another way
+/*function html() {
+  console.log("HTML- це мова розмітки за допомогою тегів");
+}
+
+function css() {
+  console.log(
+    "CSS-спеціальна мова, що використовується для запису оформлення сторінок, написаних мовами розмітки даних."
+  );
+}
+
+document.querySelector("#html").addEventListener("click", html);
+document.querySelector("#css").addEventListener("click", css);*/
 
 //  --3--
 // Написати функцію магазин, яка отримує назву товару,
@@ -120,3 +184,13 @@ const shopInfo = {
 };
 
 shopInfo.getPrice();*/
+//Another way
+/*const totalPrice = (name, price, quantity) => {
+  return console.log(
+    `За цю кількість ${name} загальна ціна становить ${price * quantity}`
+  );
+};
+totalPrice("banana", 10, 4.5);
+totalPrice("cherry", 58, 1.3);
+totalPrice("orange", 89, 3.4);*/
+//checked

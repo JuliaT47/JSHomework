@@ -69,3 +69,4 @@
 // let averageAge = sum / girls.length;
 
 // console.log(averageAge);
+// checked

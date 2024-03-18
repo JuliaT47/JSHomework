@@ -34,6 +34,13 @@ console.log(result);*/
 const result = min(10, 10.5);
 console.log(result);*/
 
+//Another way
+/*function min(a, b) {
+  console.log(Math.min(a, b));
+}
+min(7, 44);
+min(44, 8);*/
+
 //  ---3---
 // Перепишіть з використанням стрілкових функцій
 // Замініть Функціональні Вирази на стрілкові функції у коді нижче:
@@ -67,3 +74,4 @@ ask(
     alert("Ви скасували виконання.");
   }
 );*/
+// checked

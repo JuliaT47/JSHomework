@@ -44,3 +44,26 @@ Calculator();*/
 }
 
 Calculator();*/
+
+//Another way
+/*function Calculator() {
+  // 1 //
+  this.read = function () {
+    this.n1 = prompt("Введіть перше число");
+    this.n2 = prompt("Введіть друге число");
+  };
+  // 2 //
+  this.sum = function () {
+    return Number(this.n1) + Number(this.n2);
+  };
+  // 3 //
+  this.mul = function () {
+    return Number(this.n1) * Number(this.n2);
+  };
+}
+
+let calculator = new Calculator();
+calculator.read();
+
+console.log(calculator.sum());
+console.log(calculator.mul());*/
