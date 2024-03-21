@@ -1,0 +1,43 @@
+.btnHideText {
+  width: 70px;
+  height: 50px;
+  background-color: violet;
+}
+.hide {
+  opacity: 1;
+  transition: opacity 2s ease;
+}
+.hidden {
+  opacity: 0;
+}
+
+.btnHide {
+  width: 70px;
+  height: 50px;
+  background-color: goldenrod;
+  transition: opacity 2s ease;
+}
+.disappear {
+  opacity: 0;
+}
+.grandparent,
+.parent,
+.child {
+  margin: 30px;
+  padding: 10px;
+  outline: 2px solid green;
+  list-style-type: none;
+}
+.grandparent {
+  background-color: rgb(221, 144, 207);
+}
+.parent {
+  background-color: rgb(241, 232, 155);
+}
+.child {
+  background-color: rgb(137, 224, 134);
+  transition: opacity 2s ease;
+}
+.liHidden {
+  opacity: 0;
+}
