@@ -67,3 +67,4 @@ calculator.read();
 
 console.log(calculator.sum());
 console.log(calculator.mul());*/
+// checked
